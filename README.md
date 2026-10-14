@@ -54,6 +54,7 @@ barasseur --dir ~/mon-projet "ajoute des tests pour utils.py"
 - [CONTRIBUTING.md](CONTRIBUTING.md) : règles et contrôles appliqués à chaque push
 - [SECURITY.md](SECURITY.md) : clé API et précautions
 - [CHANGELOG.md](CHANGELOG.md) : historique des versions
+- [docs/roadmap/](docs/roadmap/README.md) : sprints et tâches jusqu'à la version 1.0
 
 ## Développement
 
@@ -63,9 +64,7 @@ git config core.hooksPath .githooks   # active les contrôles avant chaque push
 scripts/check.sh                      # secrets, ruff, tests
 ```
 
-## Prochaines étapes possibles
+## Feuille de route
 
-1. Compactage de l'historique quand la conversation devient longue.
-2. Outil `search` (ripgrep) pour chercher dans le code sans tout lire.
-3. Fichier `BARASSEUR.md` dans le projet cible, lu au démarrage comme consignes.
-4. Streaming des réponses et affichage des diffs en couleur.
+Les sprints et tâches pour construire l'agent complet sont dans
+[docs/roadmap/](docs/roadmap/README.md) (en anglais).
